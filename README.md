@@ -1,4 +1,4 @@
-# CP(2) Worm Algorithm
+# CP(2) Worm Algorithm in C++
 
 I wrote this code as a postdoc to perform the research carried out in this paper: https://arxiv.org/abs/1803.04767.
 
