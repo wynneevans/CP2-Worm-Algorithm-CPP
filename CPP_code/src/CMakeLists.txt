@@ -1,17 +1,16 @@
-# set minium required version of CMake
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.19.1)
+project(CP2_CPP_CODE CXX)
 
-# set the project name
-project(CPP_code)
+set(CMAKE_PREFIX_PATH "/Users/wynne/tools")
+#find_package(Boost 1.74.0 REQUIRED COMPONENTS
+#             Boost_format Boost_multi_array)
 
-set(CMAKE_CXX_FLAGS "-std=c++11 -O3")
-find_package(Boost 1.58.0 REQUIRED COMPONENTS system)
+find_package(Boost 1.74.0 REQUIRED)
+if(Boost_FOUND)
+  include_directories(${Boost_INCLUDE_DIRS})
+  add_executable(wormCP2Mu2dAFMplaq wormCP2Mu2dAFMplaq.cpp)
+endif()
 
-# include Boost library
-include_directories(${Boost_INCLUDE_DIR})
+#target_link_libraries(wormCP2Mu2dAFMplaq Boost::format Boost::multi_array)
 
-# add the executable
-add_executable(wormCP2Mu2dAFMplaq wormCP2Mu2dAFMplaq.cpp)
 
-# link Boost library
-target_link_libraries(wormCP2Mu2dAFMplaq LINK_PUBLIC ${Boost_LIBRARIES})

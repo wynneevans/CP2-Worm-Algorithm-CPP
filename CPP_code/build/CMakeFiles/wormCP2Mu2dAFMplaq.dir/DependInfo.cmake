@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Wynne/Dropbox/Projects/CP2WormAlgorithm/CPP_code/src/wormCP2Mu2dAFMplaq.cpp" "/Users/Wynne/Dropbox/Projects/CP2WormAlgorithm/CPP_code/build/CMakeFiles/wormCP2Mu2dAFMplaq.dir/wormCP2Mu2dAFMplaq.cpp.o"
+  "/Users/wynne/github/cp2-worm-algorithm-cpp/CPP_code/src/wormCP2Mu2dAFMplaq.cpp" "/Users/wynne/github/cp2-worm-algorithm-cpp/CPP_code/build/CMakeFiles/wormCP2Mu2dAFMplaq.dir/wormCP2Mu2dAFMplaq.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
+  "/Users/wynne/tools/boost/boost_1_74_0"
   )
 
 # Targets to which this target links.
