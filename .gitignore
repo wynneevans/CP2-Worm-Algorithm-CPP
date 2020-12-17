@@ -1,2 +1,3 @@
-algorithm/output/
-analysis/venv/
+algorithm/build
+algorithm/output
+analysis/venv
